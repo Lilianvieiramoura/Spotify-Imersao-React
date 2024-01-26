@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
 
 function App() {
   return (
-    <h1>Spotify</h1>
+    <Header />
   );
 }
 
