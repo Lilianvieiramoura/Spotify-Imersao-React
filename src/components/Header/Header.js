@@ -1,11 +1,11 @@
 import React from "react";
 import './Header.css';
-import smallRight from '../assets/icons/small-right.png'
-import smallLeft from '../assets/icons/small-left.png'
-import search from '../assets/icons/search.png'
+import smallRight from '../../assets/icons/small-right.png'
+import smallLeft from '../../assets/icons/small-left.png'
+import search from '../../assets/icons/search.png'
 
 const Header = () => {
-  return (
+    return (
     <nav className="header__navigation">
     <div className="navigation">
         <button className="arrow-left">
@@ -24,8 +24,8 @@ const Header = () => {
         <button className="subscribe">Inscreva-se</button>
         <button className="login">Entrar</button>
     </div>
-  </nav>
-  )
+    </nav>
+    )
 }
 
 export default Header;
